@@ -11,12 +11,12 @@ public class Addition {
 		System.out.println(" enter a: ");
 		a=sc.nextInt();
 		
-		System.out.println(" enter a: ");
+		System.out.println(" enter b: ");
 		b=sc.nextInt();
 		
 		c=a+b ;
 				
-				System.out.println("Addition of a="+a+"and b ="+b+"is"+c);
+				System.out.println("Addition of a ="+a+" and b = "+b+"is "+c);
 
 	}
 
