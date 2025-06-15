@@ -38,7 +38,7 @@ public class Char1 {
 	}
 	@Override
 	public String toString() {
-		return "Char1 [ch=" + ch + ", ch1=" + ch1 + ", var1=" + var1 + ", var2=" + var2 + ", a=" + a + "]";
+		return "Char1 [Name= " + ch + ", ch1=" + ch1 + ", var1=" + var1 + ", var2=" + var2 + ", a=" + a + "]";
 	}
 	
 	
