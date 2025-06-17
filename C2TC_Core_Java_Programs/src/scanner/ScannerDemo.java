@@ -4,13 +4,13 @@ public class ScannerDemo {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter your name: ");
-		String name = scanner.nextLine();
+		String name = sc.nextLine();
 		
 		System.out.println("Enter your age :");
-		int age = scanner.nextInt();
+		int age = sc.nextInt();
 		
 		System.out.println(name+ " is "+ age);
 	}
