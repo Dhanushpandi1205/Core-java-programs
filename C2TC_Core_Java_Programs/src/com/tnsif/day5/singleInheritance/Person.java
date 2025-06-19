@@ -11,6 +11,9 @@ public class Person {
 	// default constructor
 	public Person(){
 		System.out.println("Default constructor executed");
+		this.Id=10;
+		this.name="hema";
+		this.city = "Chennai";
 	}
 	// parameterized constructor
 	public Person(String name,int Id,String city) {

@@ -6,6 +6,8 @@ public class SLInheritanceDemo {
 	public static void main(String[] args) {
 		Trainer pr =new Trainer(6015,"dhanush","Navalur","program Trainer","Chennai");
         System.out.println(pr);
+        Trainer pr1 = new Trainer();
+        System.out.println(pr1);
 	}
 
 }
