@@ -1,7 +1,10 @@
 package com.tnsif.day4.firstpackages;
 import java.util.Scanner;
 public class PersonDemo {
-
+  public PersonDemo() {
+	  System.out.println("Defualt constructor");
+  }
+ 
 	public static void main(String[] args) {
 		
 				Person p1 = new Person(); // default constructor invoked
