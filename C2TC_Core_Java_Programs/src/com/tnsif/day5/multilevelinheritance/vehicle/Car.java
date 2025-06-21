@@ -1,4 +1,4 @@
-package com.tnsif.day5.multilevelinheritance;
+package com.tnsif.day5.multilevelinheritance.vehicle;
 
 public class Car {
 	public Car() {
