@@ -1,5 +1,5 @@
 package com.tnsif.daye8.interfaces.extendinginterfaces;
 
-public class ChildInterface extends InterfaceOne {
+public interface ChildInterface extends InterfaceOne {
 	void show();
 }
