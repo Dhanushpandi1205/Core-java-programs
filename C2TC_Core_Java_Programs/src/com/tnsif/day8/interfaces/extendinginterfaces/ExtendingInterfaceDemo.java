@@ -1,4 +1,4 @@
-package com.tnsif.daye8.interfaces.extendinginterfaces;
+package com.tnsif.day8.interfaces.extendinginterfaces;
 
 public class ExtendingInterfaceDemo implements ChildInterface{
 	// Override ChildInterface method
