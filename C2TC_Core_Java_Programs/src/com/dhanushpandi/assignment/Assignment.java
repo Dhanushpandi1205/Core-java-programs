@@ -7,8 +7,8 @@ public class Assignment {
 	public static void main(String[] args) {
 		
 		    
-		        Manager manager = new Manager("Alice", "M101", 90000, "HR");
-		        Developer developer = new Developer("Bob", "D202", 80000, "Java");
+		        Manager manager = new Manager("Dhanush", "M001", 90000, "HR");
+		        Developer developer = new Developer("Pandi", "D001", 80000, "Java");
 
 		        System.out.println("Manager Details:");
 		        EmployeeUtilities.printEmployeeDetails(manager);
