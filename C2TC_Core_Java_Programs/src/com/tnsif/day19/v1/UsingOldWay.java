@@ -13,7 +13,7 @@ class MyCubeImpl implements MyCube
 public class UsingOldWay {
 	public static void main(String[] args) {
 		//1. Using object of implementable class
-		UsingOldWay obj=new UsingOldWay();
+		MyCube obj=new MyCubeImpl();
 		System.out.println("Cube is "+obj.getCube(3));
 
 		//2. Using Anonymous class

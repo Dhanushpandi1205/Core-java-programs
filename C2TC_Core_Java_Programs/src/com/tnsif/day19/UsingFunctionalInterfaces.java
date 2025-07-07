@@ -13,13 +13,17 @@ class Display {
 	void show1(String s) {
 		System.out.println("****" + s + "*********");
 	}
-	String getName()
+	public String getName()
 	{
 		return "TNSIF";
 	}
 }
 
 public class UsingFunctionalInterfaces {
+	public String getName()
+	{
+		return "TNSIF";
+	}
 
 	public static void main(String[] args) {
 		// Consumer Functional Interface
@@ -29,10 +33,10 @@ public class UsingFunctionalInterfaces {
 		consumer = System.out::println; // method reference - instance inbuilt method
 		consumer.accept("Pooja");
 		
-		consumer = UsingFunctionalInterfaces::show; // method reference - static method
+		consumer = Display::show; // method reference - static method
 		consumer.accept("Java Programming");
 		
-		consumer = new UsingFunctionalInterfaces()::show1; // method reference - instance method 
+		consumer = new Display()::show1; // method reference - instance method 
 		consumer.accept("Hello");
 		
 		//Supplier  Functional Interface

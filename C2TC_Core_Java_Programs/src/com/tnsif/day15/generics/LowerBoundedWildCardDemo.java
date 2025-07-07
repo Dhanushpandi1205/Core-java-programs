@@ -19,7 +19,7 @@ public class LowerBoundedWildCardDemo {
 		
 		  List<Number> doubleList= Arrays.asList(1.0,2.0,3.0,9);
 		  System.out.println("Display Double values");
-		   displayNumbers(doubleList);
+		  LowerBoundedWildCard.displayNumbers(doubleList);
 		 
 	}
 
